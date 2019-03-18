@@ -1,0 +1,2260 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<html class="theme-next muse use-motion" lang>
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2">
+
+<link rel="stylesheet" href="/css/main.css?v=7.0.1">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=7.0.1">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=7.0.1">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=7.0.1">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=7.0.1" color="#222">
+
+
+
+
+
+
+
+<script id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Muse',
+    version: '7.0.1',
+    sidebar: {"position":"left","display":"post","offset":12,"onmobile":false,"dimmer":false},
+    back2top: true,
+    back2top_sidebar: false,
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+  
+
+
+
+
+  <meta property="og:type" content="website">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:locale" content="default">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Hexo">
+
+
+
+
+
+
+  <link rel="canonical" href="http://yoursite.com/">
+
+
+
+<script id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
+
+  <title>Hexo</title>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .motion-element,
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-title { opacity: initial; }
+
+  .use-motion .logo,
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="default">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left 
+  page-home">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Hexo</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+    
+    
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="Navigationsleiste an/ausschalten">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  
+    <ul id="menu" class="menu">
+      
+        
+        
+        
+          
+          <li class="menu-item menu-item-home menu-item-active">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>Startseite</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-tags">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>Schlagwörter</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-categories">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>Kategorien</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-archives">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>Archiv</a>
+
+  </li>
+
+      
+      
+    </ul>
+  
+
+  
+    
+
+  
+
+  
+</nav>
+
+
+
+  
+
+
+
+</div>
+    </header>
+
+    
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+          <div id="content" class="content">
+            
+  <section id="posts" class="posts-expand">
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/03/18/hello-world/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2019/03/18/hello-world/" class="post-title-link" itemprop="url">Hello World</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+
+              
+                
+              
+
+              <time title="Erstellt: 2019-03-18 13:50:01" itemprop="dateCreated datePublished" datetime="2019-03-18T13:50:01+08:00">2019-03-18</time>
+            
+
+            
+          </span>
+
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/03/11/CodeForces-1038D/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2019/03/11/CodeForces-1038D/" class="post-title-link" itemprop="url">CodeForces-1038D</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+
+              
+                
+              
+
+              <time title="Erstellt: 2019-03-11 13:15:19 / Geändert am: 13:27:57" itemprop="dateCreated datePublished" datetime="2019-03-11T13:15:19+08:00">2019-03-11</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="CodeForces-1038D-Slime"><a href="#CodeForces-1038D-Slime" class="headerlink" title="CodeForces-1038D: Slime"></a>CodeForces-1038D: Slime</h1><p>链接：<a href="https://codeforces.com/problemset/problem/1038/D" target="_blank" rel="noopener">https://codeforces.com/problemset/problem/1038/D</a></p>
+<p>$Time\;Limit:\;2000\;ms$</p>
+<p>$Memory\;Limit:\;262144\;kB​$</p>
+<h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>There are $n​$ slimes in a row. Each slime has an integer value (possibly negative or zero) associated with it.</p>
+<p>Any slime can eat its adjacent slime (the closest slime to its left or to its right, assuming that this slime exists).</p>
+<p>When a slime with a value $x​$ eats a slime with a value $y​$, the eaten slime disappears, and the value of the remaining slime changes to $x−y​$.</p>
+<p>The slimes will eat each other until there is only one slime left.</p>
+<p>Find the maximum possible value of the last slime.</p>
+<h2 id="Input"><a href="#Input" class="headerlink" title="Input"></a>Input</h2><p>The first line of the input contains an integer $n​$($1≤n≤500000​$) denoting the number of slimes.</p>
+<p>The next line contains $n$ integers $a_i$ ($−10^9≤a_i≤10^9$), where $a_i$ is the value of $i$-th slime.</p>
+<h2 id="Output"><a href="#Output" class="headerlink" title="Output"></a>Output</h2><p>Print an only integer — the maximum possible value of the last slime.</p>
+<h2 id="Examples"><a href="#Examples" class="headerlink" title="Examples"></a>Examples</h2><p>Input</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">4</span><br><span class="line">2 1 2 1</span><br></pre></td></tr></table></figure>
+<p>Output</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">4</span><br></pre></td></tr></table></figure>
+<p>Input</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">5</span><br><span class="line">0 -1 -1 -1 -1</span><br></pre></td></tr></table></figure>
+<p>Output</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">4</span><br></pre></td></tr></table></figure>
+<h2 id="Note"><a href="#Note" class="headerlink" title="Note"></a>Note</h2><p>In the first example, a possible way of getting the last slime with value $4$ is:</p>
+<ul>
+<li>Second slime eats the third slime, the row now contains slimes $2,−1,1$</li>
+<li>Second slime eats the third slime, the row now contains slimes $2,−2$</li>
+<li>First slime eats the second slime, the row now contains $4$</li>
+</ul>
+<p>In the second example, the first slime can keep eating slimes to its right to end up with a value of $4​$.</p>
+<h2 id="题解"><a href="#题解" class="headerlink" title="题解"></a>题解</h2><p>水题，三种情况</p>
+<ul>
+<li>有正有负的情况直接将所有数的绝对值相加</li>
+<li>全正或全负的情况则将所有数的绝对值相加后减去最小的绝对值</li>
+<li>$n=1$需要特判</li>
+</ul>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//Time: 997ms Memory: 3924kB</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="keyword">typedef</span> <span class="keyword">long</span> <span class="keyword">long</span> ll;</span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> N 500005</span></span><br><span class="line">ll a[N];</span><br><span class="line"><span class="function">ll <span class="title">int_abs</span><span class="params">(ll x)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">return</span> x &gt; <span class="number">0</span> ? x : -x;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> n; ll sum = <span class="number">0</span>;</span><br><span class="line">	<span class="built_in">cin</span> &gt;&gt; n;</span><br><span class="line">	<span class="built_in">cin</span> &gt;&gt; a[<span class="number">0</span>];</span><br><span class="line">	ll MIN = a[<span class="number">0</span>], MAX = a[<span class="number">0</span>];</span><br><span class="line">	sum += int_abs(a[<span class="number">0</span>]);</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">1</span>; i &lt; n; ++i)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="built_in">cin</span> &gt;&gt; a[i];</span><br><span class="line">		MIN = min(a[i], MIN);</span><br><span class="line">		MAX = max(a[i], MAX);</span><br><span class="line">		sum += int_abs(a[i]);</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">if</span>(n == <span class="number">1</span>) <span class="built_in">cout</span> &lt;&lt; a[<span class="number">0</span>] &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">	<span class="keyword">else</span> <span class="keyword">if</span>(n == <span class="number">2</span>) <span class="built_in">cout</span> &lt;&lt; max(a[<span class="number">0</span>] - a[<span class="number">1</span>], a[<span class="number">1</span>] - a[<span class="number">0</span>]) &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">	<span class="keyword">else</span></span><br><span class="line">	&#123;</span><br><span class="line">		<span class="keyword">if</span>(MIN &gt; <span class="number">0</span>) <span class="built_in">cout</span> &lt;&lt; sum - <span class="number">2</span> * MIN &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">		<span class="keyword">else</span> <span class="keyword">if</span>(MAX &lt; <span class="number">0</span>) <span class="built_in">cout</span> &lt;&lt; sum - <span class="number">2</span> * int_abs(MAX) &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">		<span class="keyword">else</span> <span class="built_in">cout</span> &lt;&lt; sum &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/03/11/CodeForces-920C/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2019/03/11/CodeForces-920C/" class="post-title-link" itemprop="url">CodeForces-920C</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+
+              
+                
+              
+
+              <time title="Erstellt: 2019-03-11 13:06:15 / Geändert am: 13:24:20" itemprop="dateCreated datePublished" datetime="2019-03-11T13:06:15+08:00">2019-03-11</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="CodeForces-920C-Swap-Adjacent-Elements"><a href="#CodeForces-920C-Swap-Adjacent-Elements" class="headerlink" title="CodeForces-920C: Swap Adjacent Elements"></a>CodeForces-920C: Swap Adjacent Elements</h1><p>链接：<a href="https://codeforces.com/problemset/problem/920/C" target="_blank" rel="noopener">https://codeforces.com/problemset/problem/920/C</a></p>
+<p>$Time\;Limit:\;1000\;ms$</p>
+<p>$Memory\;Limit:\;262144\;kB​$</p>
+<h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>You have an array $a$ consisting of $n$ integers. Each integer from 1 to $n$ appears exactly once in this array.</p>
+<p>For some indices $i​$ (1 ≤ $i​$ ≤ $n​$ - 1) it is possible to swap $i​$-th element with ($i​$ + 1)-th, for other indices it is not possible. You may perform any number of swapping operations any order. There is no limit on the number of times you swap $i​$-th element with ($i​$ + 1)-th (if the position is not forbidden).</p>
+<p>Can you make this array sorted in ascending order performing some sequence of swapping operations?</p>
+<h2 id="Input"><a href="#Input" class="headerlink" title="Input"></a>Input</h2><p>The first line contains one integer $n$ (2 ≤ $n$ ≤ 200000) — the number of elements in the array.</p>
+<p>The second line contains $n$ integers $a_1$, $a_2$, …, $a_n$ (1 ≤ $a_i$ ≤ 200000) — the elements of the array. Each integer from 1 to $n$ appears exactly once.</p>
+<p>The third line contains a string of $n$ - 1characters, each character is either 0 or 1. If $i$-th character is 1, then you can swap $i$-th element with ($i$ + 1)-th any number of times, otherwise it is forbidden to swap $i$-th element with ($i$ + 1)-th.</p>
+<h2 id="Output"><a href="#Output" class="headerlink" title="Output"></a>Output</h2><p>If it is possible to sort the array in ascending order using any sequence of swaps you are allowed to make, print YES. Otherwise, print NO.</p>
+<h2 id="Examples"><a href="#Examples" class="headerlink" title="Examples"></a>Examples</h2><p>Input</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">6</span><br><span class="line">1 2 5 3 4 6</span><br><span class="line">01110</span><br></pre></td></tr></table></figure>
+<p>Output</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">YES</span><br></pre></td></tr></table></figure>
+<p>Input</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">6</span><br><span class="line">1 2 5 3 4 6</span><br><span class="line">01010</span><br></pre></td></tr></table></figure>
+<p>Output</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">NO</span><br></pre></td></tr></table></figure>
+<h2 id="Note"><a href="#Note" class="headerlink" title="Note"></a>Note</h2><p>In the first example you may swap $a$3 and $a$4, and then swap $a$4 and $a$5.</p>
+<h2 id="题解"><a href="#题解" class="headerlink" title="题解"></a>题解</h2><p>水题，找出不在自己位置的点，判断其到自己正确位置的路径上是否全部可以交换即可</p>
+<p>这里统计路径上1的个数作为判断标准</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//Time: 311ms Memory: 2068kB</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="keyword">typedef</span> <span class="keyword">long</span> <span class="keyword">long</span> ll;</span><br><span class="line"><span class="keyword">typedef</span> <span class="keyword">unsigned</span> <span class="keyword">long</span> <span class="keyword">long</span> ull;</span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> N = <span class="number">2e5</span> + <span class="number">5</span>;</span><br><span class="line"><span class="keyword">int</span> a[N], sum[N];</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> n; <span class="built_in">string</span> str;</span><br><span class="line">	<span class="built_in">cin</span> &gt;&gt; n;</span><br><span class="line">	a[<span class="number">0</span>] = <span class="number">0</span>;</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">1</span>; i &lt;= n; ++i) <span class="built_in">cin</span> &gt;&gt; a[i];</span><br><span class="line">	<span class="built_in">cin</span> &gt;&gt; str;</span><br><span class="line">	sum[<span class="number">0</span>] = str[<span class="number">0</span>];</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">1</span>; i &lt;= n; ++i) sum[i] = str[i - <span class="number">1</span>] - <span class="string">'0'</span> + sum[i - <span class="number">1</span>];</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">1</span>; i &lt;= n; ++i)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="keyword">if</span>(a[i] == i) <span class="keyword">continue</span>;</span><br><span class="line">		<span class="keyword">if</span>(a[i] &lt; i)</span><br><span class="line">		&#123;</span><br><span class="line">			<span class="keyword">if</span>(sum[i - <span class="number">1</span>] - sum[a[i] - <span class="number">1</span>] != i - a[i])</span><br><span class="line">			&#123;</span><br><span class="line">				<span class="built_in">cout</span> &lt;&lt; <span class="string">"NO"</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">				<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">else</span></span><br><span class="line">		&#123;</span><br><span class="line">			<span class="keyword">if</span>(sum[a[i] - <span class="number">1</span>] - sum[i - <span class="number">1</span>] != a[i] - i)</span><br><span class="line">			&#123;</span><br><span class="line">				<span class="built_in">cout</span> &lt;&lt; <span class="string">"NO"</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">				<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="built_in">cout</span> &lt;&lt; <span class="string">"YES"</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/03/09/高数笔记3/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2019/03/09/高数笔记3/" class="post-title-link" itemprop="url">高数笔记3</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+
+              
+                
+              
+
+              <time title="Erstellt: 2019-03-09 21:58:47" itemprop="dateCreated datePublished" datetime="2019-03-09T21:58:47+08:00">2019-03-09</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Bearbeitet am</span>
+                
+                <time title="Geändert am: 2019-03-10 13:37:48" itemprop="dateModified" datetime="2019-03-10T13:37:48+08:00">2019-03-10</time>
+              
+            
+          </span>
+
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="一、一阶偏导数"><a href="#一、一阶偏导数" class="headerlink" title="一、一阶偏导数"></a>一、一阶偏导数</h1><h2 id="1-一阶偏导数的定义和计算"><a href="#1-一阶偏导数的定义和计算" class="headerlink" title="1. 一阶偏导数的定义和计算"></a>1. 一阶偏导数的定义和计算</h2><h3 id="Def-1-一阶偏导数"><a href="#Def-1-一阶偏导数" class="headerlink" title="Def 1 一阶偏导数"></a>Def 1 一阶偏导数</h3><p>$$<br>若\lim_{\Delta x\rightarrow0}\frac{f(x_0+\Delta x,y_0)-f(x_0,y_0)}{\Delta x}存在,\\<br>则称此极限值为z=f(x,y)在点P_0(x_0,y_0)关于x的偏导数,\<br>记为\frac{\partial z}{\partial x}|_{x=x_0\y=y_0}或\frac{\partial f}{\partial x}|_{x=x_0\y=y_0}或z_{x}(x_0,y_0)或f_{x}(x_0,y_0)\<br>即f_{x}(x_0,y_0)=\lim_{\Delta x\rightarrow0}\frac{f(x_0+\Delta x,y_0)-f(x_0,y_0)}{\Delta x}\<br>类似可定义\lim_{\Delta y\rightarrow0}\frac{f(x_0,y_0+\Delta y)-f(x_0,y_0)}{\Delta y}(存在)\<br>称为z=f(x,y)在点P_0(x_0,y_0)关于y的偏导数\<br>记为\frac{\partial z}{\partial y}|_{x=x_0\y=y_0}或\frac{\partial f}{\partial y}|_{x=x_0\y=y_0}或z_{y}(x_0,y_0)或f_{y}(x_0,y_0)\<br>\color{red}{二者合称一阶偏导数}<br>$$</p>
+<h3 id="Def-2-偏导函数"><a href="#Def-2-偏导函数" class="headerlink" title="Def 2 偏导函数"></a>Def 2 偏导函数</h3><p>$$<br>z=f(x,y)\quad(x,y)\in D\<br>\begin{cases}<br>f_x(x,y),z_x(x,y),\frac{\partial f}{\partial x},\frac{\partial z}{\partial x}&amp;z=f(x,y)对x的偏导函数\<br>f_y(x,y),z_y(x,y),\frac{\partial f}{\partial y},\frac{\partial z}{\partial y}&amp;z=f(x,y)对y的偏导函数\<br>\end{cases}<br>$$</p>
+<h3 id="Remark"><a href="#Remark" class="headerlink" title="Remark"></a>Remark</h3><ol>
+<li><p>$$<br>f_{x}(x_0,y_0)=f_x(x,y)|_{x=x_0\y=y_0}\<br>f_{y}(x_0,y_0)=f_y(x,y)|_{x=x_0\y=y_0}\<br>f_{x}(x,y)=\lim_{\Delta x\rightarrow0}\frac{f(x+\Delta x,y)-f(x,y)}{\Delta x}<br>$$</p>
+</li>
+<li><p>$$<br>偏导函数\stackrel{简称}{\longrightarrow}偏导数\<br>导函数\stackrel{简称}{\longrightarrow}导数\<br>$$</p>
+</li>
+<li><p>$$<br>求z=f(x,y)的偏导数\stackrel{本质}{\longrightarrow}求一元函数的导数\<br>\begin{cases}<br>求\frac{\partial z}{\partial x}-视y为常数\<br>求\frac{\partial z}{\partial y}-视x为常数<br>\end{cases}<br>$$</p>
+</li>
+<li><p>e.g.1<br>$$<br>f(x,y)=xy+x^2+y^2,求f_x(0,1),f_y(2,0)\<br>\begin{split}<br>解:&amp;f_x(x,y)=y+2x \Rightarrow f_x(0,1)=1\<br>&amp;f_y(x,y)=x+2y \Rightarrow f_y(2,0)=2<br>\end{split}<br>$$<br>e.g.2<br>$$<br>z=x^2\sin{xy},求z_x,z_y\<br>\begin{split}<br>解:&amp;z_x=2x\sin{xy}+x^2y\cos{xy}\<br>&amp;z_y=x^3\cos{xy}<br>\end{split}<br>$$<br>e.g.3<br>$$<br>u=\sqrt{x^2+y^2+z^2},求u_x,u_y,u_z\<br>\left.\begin{split}<br>解:&amp;u_x=\frac{x}{\sqrt{x^2+y^2+z^2}}\<br>&amp;u_y=\frac{y}{\sqrt{x^2+y^2+z^2}}\<br>&amp;u_z=\frac{z}{\sqrt{x^2+y^2+z^2}}\<br>\end{split}\right}u_x^2+u_y^2+u_z^2=1<br>$$<br>e.g.4<br>$$<br>理想气体的状态方程PU=RT\<br>求证:\frac{\partial P}{\partial V}\cdot\frac{\partial V}{\partial T}\cdot\frac{\partial T}{\partial P}=-1\<br>\left.\begin{split}<br>证明:&amp;P=R\frac{T}{V}\Rightarrow\frac{\partial P}{\partial V}=-R\frac{T}{V^2}\<br>&amp;V=R\frac{T}{P}\Rightarrow\frac{\partial V}{\partial T}=\frac{R}{P}\<br>&amp;T=\frac{PV}{R}\Rightarrow\frac{\partial T}{\partial P}=\frac{V}{R}\<br>\end{split}\right}<br>\Rightarrow<br>\begin{split}<br>&amp;\frac{\partial P}{\partial V}\cdot\frac{\partial V}{\partial T}\cdot\frac{\partial T}{\partial P}\<br>=&amp;-R\cdot\frac{T}{V^2}\cdot\frac{R}{P}\cdot\frac{V}{R}\<br>=&amp;-R\frac{T}{VP}=-1<br>\end{split}<br>$$<br>e.g.5<br>$$<br>z=x^y(x&gt;0,x\ne 1)\<br>求证:\frac{x}{y}\cdot\frac{\partial z}{\partial x}+\frac{1}{\ln{x}}\cdot\frac{\partial z}{\partial y}=2z\<br>\frac{\partial z}{\partial x}=y\cdot x^{y-1},\frac{\partial z}{\partial y}=x^y\ln x<br>$$</p>
+</li>
+</ol>
+<h2 id="2-几何意义-直观"><a href="#2-几何意义-直观" class="headerlink" title="2. 几何意义(直观)"></a>2. 几何意义(直观)</h2><p>$$<br>\begin{split}<br>y=f(x)\quad&amp;\frac{dy}{dx}|_{x=x_0}-切线斜率\<br>z=f(x,y)\quad&amp;<br>\begin{cases}<br>\frac{\partial z}{\partial x}|_{x=x_0\y=y_0}-平面直线<br>\begin{cases}<br>z=f(x,y)\<br>y=y_0<br>\end{cases}<br>在P_0(x_0,y_0)点切线对x轴正向的斜率\<br>\frac{\partial z}{\partial y}|_{x=x_0\y=y_0}-平面直线<br>\begin{cases}<br>z=f(x,y)\<br>x=x_0<br>\end{cases}<br>在P_0(x_0,y_0)点切线对y轴正向的斜率<br>\end{cases}<br>\end{split}<br>$$</p>
+<h2 id="3-偏导存在与连续性的关系"><a href="#3-偏导存在与连续性的关系" class="headerlink" title="3. 偏导存在与连续性的关系"></a>3. 偏导存在与连续性的关系</h2><p>$$<br>\begin{split}<br>&amp;一元函数y=f(x)在点x_0处\quad&amp;可导\frac{\color{red}\rightharpoonup}{\color{red}\not\leftharpoondown}连续<br>&amp;\quad\&amp;&amp;e.g.f(x)=|x|在点x_0=x处\<br>&amp;二元函数y=f(x,y)在点(x_0,y_0)处\quad&amp;偏导存在{\color{red}\not\rightleftharpoons}连续<br>\end{split}<br>$$</p>
+<p>e.g.1 $连续\nRightarrow 偏导存在​$<br>$$<br>z=|x|+|y|在点(0,0)处,z=f(x,y)=|x|+|y|\rightarrow 0<br>(\begin{split}x\rightarrow0\y\rightarrow0\end{split})=f(0,0)\<br>\begin{split}<br>1.&amp;z=f(x,y)=|x|+|y|在点(0,0)连续\<br>2.&amp;z_x(0,0)=\lim_{\Delta x\rightarrow 0}\frac{f(0+\Delta x,0)-f(0,0)}{\Delta x}=\lim_{\Delta x\rightarrow0}\frac{|\Delta x|}{\Delta x}不存在\<br>\Rightarrow&amp;z=f(x,y)=|x|+|y|在点(0,0)关于x的偏导不存在\<br>同理可证&amp;z=f(x,y)=|x|+|y|在点(0,0)关于y的偏导不存在\<br>\end{split}<br>$$<br>e.g.2 $偏导存在\nRightarrow 连续$<br>$$<br>z=f(x,y)=\begin{cases}\frac{xy}{x^2+y^2}&amp;(x,y)\ne(0,0)\0&amp;(x,y)=(0,0)\end{cases}\<br>\begin{split}<br>在(0,0)点,有&amp;z_x(0,0)\stackrel{用定义}{=}z_x(0,0)=\lim_{\Delta x\rightarrow 0}\frac{f(0+\Delta x,0)-f(0,0)}{\Delta x}=\lim_{\Delta x\rightarrow 0}\frac{0-0}{\Delta x}=0\<br>同理，可得&amp;z_y(0,0)=0,偏导存在\<br>&amp;\lim_{x\rightarrow0\y\rightarrow0}\frac{xy}{x^2+y^2}不存在(“路径法”)\Rightarrow z=f(x,y)在(0,0)点不连续<br>\end{split}<br>$$</p>
+<h2 id="定理"><a href="#定理" class="headerlink" title="定理"></a>定理</h2><p>$$<br>z=f(x,y)在点(x_0,y_0)的某邻域内处处存在偏导数f_x(x,y),f_y(x,y)且各偏导数在此邻域内有界\<br>\Rightarrow f(x,y)在(x_0,y_0)连续<br>$$</p>
+<h1 id="二、高阶偏导数"><a href="#二、高阶偏导数" class="headerlink" title="二、高阶偏导数"></a>二、高阶偏导数</h1><h1 id="Def-3"><a href="#Def-3" class="headerlink" title="Def 3"></a>Def 3</h1><p>$$<br>\left.\begin{split}<br>\frac{\partial^2 z}{\partial x^2}=f_{xx}(x,y)=\frac{\partial}{\partial x}(\frac{\partial f}{\partial x})=\frac{\partial^2 f}{\partial x^2}\<br>\frac{\partial^2 z}{\partial y^2}=f_{yy}(x,y)=\frac{\partial}{\partial y}(\frac{\partial f}{\partial y})=\frac{\partial^2 f}{\partial y^2}\<br>\left.\begin{split}<br>\frac{\partial^2 z}{\partial x\partial y}=f_{xy}(x,y)=\frac{\partial}{\partial y}(\frac{\partial f}{\partial x})\<br>\frac{\partial^2 z}{\partial y\partial x}=f_{yx}(x,y)=\frac{\partial}{\partial x}(\frac{\partial f}{\partial y})<br>\end{split}\right}混合偏导<br>\end{split}\right}<br>\begin{split}<br>&amp;z=f(x,y)的二阶偏导数(4个),可推广至二阶以上\<br>&amp;\frac{\partial^3 z}{\partial x^3},\frac{\partial^3 z}{\partial y^3},\cdots\frac{\partial^3 z}{\partial y\partial x\partial y},\frac{\partial^3 z}{\partial y^2\partial x}\<br>&amp;C^1_2C^1_2C^1_2=8\<br>&amp;三阶偏导(8种)<br>\end{split}<br>$$</p>
+<p>e.g.1<br>$$<br>z=xe^x\sin y,求四个二阶偏导数\<br>\left{\begin{split}<br>&amp;\frac{\partial^2 z}{\partial x^2}\<br>&amp;\frac{\partial^2 z}{\partial y^2}\<br>&amp;\left.\begin{split}<br>\frac{\partial^2 z}{\partial x\partial y}\<br>\frac{\partial^2 z}{\partial y\partial x}<br>\end{split}\right}=e^x(1+x)\cos y<br>\left{\begin{split}<br>&amp;\frac{\partial z}{\partial x}=(e^x+xe^x)\sin y\<br>&amp;\frac{\partial z}{\partial y}=xe^x\sin y<br>\end{split}\right.<br>\end{split}\right.<br>$$<br>e.g.2<br>$$<br>f(x,y)=<br>\begin{cases}<br>xy\frac{x^2-y^2}{x^2+y^2}&amp;(x,y)\ne(0,0)\<br>0&amp;(x,y)=(0,0)<br>\end{cases},求f_{xy}(0,0),f_{yx}(0,0)\<br>{\color{red}\bigstar} f_{xy}(0,0)\stackrel{定义}{=}\lim_{\Delta y\rightarrow 0}\frac{f_x(0,0+\Delta y)-f_x(0,0)}{\Delta y}\<br>\left.\begin{split}<br>(x,y)\ne (0,0)时,f_x(x,y)\stackrel{公式}{=}\frac{(3x^2-y^3)(x^2+y^2)-2x\cdot xy(x^2-y^2)}{(x^2+y^2)^2}\<br>(x,y)=(0,0)时,f_x(x,y)\stackrel{定义}{=}\lim_{\Delta x\rightarrow 0}\frac{f(0+\Delta x,0)-f(0,0)}{\Delta x}=\lim_{\Delta x\rightarrow 0}\frac{0-0}{\Delta x}=0<br>\end{split}\right}\\Rightarrow f_{xy}(0,0)=\lim_{\Delta y\rightarrow 0}\frac{\frac{-(\Delta y)^5}{(\Delta y)^4}}{\Delta y}=-1\<br>类似地,f_{yx}(0,0)=1<br>$$</p>
+<h2 id="定理-1"><a href="#定理-1" class="headerlink" title="定理"></a>定理</h2><p>混合偏导与求导次序无关</p>
+<p>Remark 可推广</p>
+<p>e.g.1<br>$$<br>验证:z=\ln\sqrt{x^2+y^2}满足二维Laplance方程\frac{\partial^2 z}{\partial x^2}+\frac{\partial^2 z}{\partial y^2}=0\<br>\begin{split}<br>证明:&amp;\frac{\partial z}{\partial x}=\frac{1}{\sqrt{x^2+y^2}}\cdot\frac{x}{\sqrt{x^2+y^2}}=\frac{x}{x^2+y^2}\<br>&amp;\frac{\partial^2 z}{\partial x^2}=\frac{x^2+y^2-2x^2}{(x^2+y^2)^2}=\frac{y^2-x^2}{(x^2+y^2)^2}\<br>同理可得&amp;\frac{\partial^2 z}{\partial y^2}=\frac{x^2-y^2}{(x^2+y^2)^2}\<br>则&amp;\frac{\partial^2 z}{\partial x^2}+\frac{\partial^2 z}{\partial y^2}=0<br>\end{split}<br>$$</p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/03/09/高数笔记2/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2019/03/09/高数笔记2/" class="post-title-link" itemprop="url">高数笔记2</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+
+              
+                
+              
+
+              <time title="Erstellt: 2019-03-09 18:59:04 / Geändert am: 23:20:48" itemprop="dateCreated datePublished" datetime="2019-03-09T18:59:04+08:00">2019-03-09</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>e.g. </p>
+<p>$$<br>f(x,y)=\begin{cases}<br>\frac{xy}{x^2+y^2}&amp;(x,y)\ne (0,0)\<br>0&amp;(x,y)= (0,0)<br>\end{cases}<br>$$</p>
+<p>$$<br>讨论:\lim_{x\rightarrow0\y\rightarrow0}f(x,y)<br>$$</p>
+<p>$$<br>\begin{split}<br>解：&amp;1.\lim_{x\rightarrow0\y\rightarrow0}f(x,y)=\lim_{y\rightarrow0}f(0,y)=0\<br>&amp;2.\lim_{x\rightarrow0\y\rightarrow0}f(x,y)=\lim_{x\rightarrow0}f(x,x)=\frac{1}{2}<br>\end{split}\<br>根据路径法,\lim_{x\rightarrow0\y\rightarrow0}f(x,y)不存在<br>$$</p>
+<p>$$<br>若先x\rightarrow 0,后y\rightarrow0,\<br>有\lim_{y\rightarrow0}\lim_{x\rightarrow0}f(x,y)=\lim_{y\rightarrow0}\frac{0}{y^2}=0\<br>类似有\lim_{x\rightarrow0}\lim_{y\rightarrow0}f(x,y)=0(先y\rightarrow 0,后x\rightarrow0),<br>称为二次极限存在（二次极限有先后次序）<br>$$</p>
+<p>练习：<br>$$<br>证明:\lim_{x\rightarrow0\y\rightarrow0}\frac{x-y}{x+y}不存在(“路径法”)<br>$$</p>
+<h3 id="3-二重极限存在-nLeftrightarrow-二次极限-存在"><a href="#3-二重极限存在-nLeftrightarrow-二次极限-存在" class="headerlink" title="3. 二重极限存在$\nLeftrightarrow$二次极限 存在"></a>3. 二重极限存在$\nLeftrightarrow$二次极限 存在</h3><p>e.g.1<br>$$<br>f(x,y)=\begin{cases}<br>\frac{xy}{x^2+y^2}&amp;(x,y)\ne (0,0)\<br>0&amp;(x,y)= (0,0)<br>\end{cases}\<br>在点(0,0)二次极限存在,二重极限不存在<br>$$<br>e.g.2<br>$$<br>f(x,y)=\begin{cases}<br>x\sin\frac{1}{y}+y\sin\frac{1}{x}&amp;(x,y)\ne (0,0)\<br>0&amp;(x,y)= (0,0)<br>\end{cases}\<br>\begin{split}<br>&amp;0\le|x\sin\frac{1}{y}+y\sin\frac{1}{x}|\le |x|+|y|\rightarrow0(\begin{array} &amp;x\rightarrow x_0\  y\rightarrow y_0\end{array})\<br>\Rightarrow&amp;\lim_{x\rightarrow0\y\rightarrow0}f(x,y)=\lim_{x\rightarrow0\y\rightarrow0}(x\sin\frac{1}{y}+y\sin\frac{1}{x})=0,二重极限存在<br>\end{split}\<br>\begin{split}<br>y\ne 0时,&amp;\lim_{x\rightarrow0}f(x,y)=\lim_{x\rightarrow0}(x\sin\frac{1}{y}+y\sin\frac{1}{x})不存在\<br>\Rightarrow&amp;\lim_{y\rightarrow0}\lim_{x\rightarrow0}f(x,y)不存在\<br>同理&amp;\lim_{x\rightarrow0}\lim_{y\rightarrow0}f(x,y)也不存在<br>\end{split}<br>$$</p>
+<h3 id="4-多元函数的极限"><a href="#4-多元函数的极限" class="headerlink" title="4. 多元函数的极限"></a>4. 多元函数的极限</h3><p>$$<br>\lim_{P\rightarrow P_0}f(P)=A(A\in R)\;点函数观点<br>$$</p>
+<h3 id="5-二元函数极限的计算"><a href="#5-二元函数极限的计算" class="headerlink" title="5. 二元函数极限的计算"></a>5. 二元函数极限的计算</h3><p>总结：</p>
+<ol>
+<li>$”\varepsilon -\delta”$（猜测证）</li>
+<li>四则运算</li>
+<li>两边夹</li>
+<li>变量替换($”L’ Hospital”$法则在二元函数求极限时不能直接应用)</li>
+<li>二元初等函数的连续性(后补)</li>
+</ol>
+<p>e.g.1<br>$$<br>\lim_{x\rightarrow0\y\rightarrow1}\frac{1-xy}{x^2+y^2}=\frac{1}{1^2}=1<br>\tag{总结5}<br>$$<br>e.g.2 $”\varepsilon -\delta”$</p>
+<p>e.g.3<br>$$<br>\begin{split}<br>&amp;\lim_{x\rightarrow0\y\rightarrow0}\frac{x^2+y^2}{\sqrt{x^2+y^2+1}-1}\<br>{\overset{\color{red}”\frac{0}{0}”}{\underset{\color{red}{x^2+y^2=u变量替换}}=}}&amp;\lim_{u\rightarrow0}\frac{u}{\sqrt{u+1}-1}&amp;\color{red}{转化为一元函数极限}\<br>=&amp;\lim_{u\rightarrow0}\frac{1}{\frac{1}{2}(u+1)^2}=2\<br>或{\overset{\color{red}{“\frac{0}{0}”}}{=}}&amp;\lim_{u\rightarrow0}\frac{u}{\frac{1}{2}u}=2<br>\end{split}<br>$$<br>e.g.4<br>$$<br>\begin{split}<br>&amp;\lim_{x\rightarrow 2\y\rightarrow0}\frac{\ln(1+xy)}{y}\<br>{\overset{\color{red}{“\frac{0}{0}”}}{=}}&amp;\lim_{x\rightarrow 2\y\rightarrow0}\frac{\ln(1+xy)}{xy}\cdot x\<br>{\overset{\color{red}{“四则”}}{=}}&amp;\lim_{x\rightarrow 2\y\rightarrow0}\frac{\ln(1+xy)}{xy}\cdot\lim_{x\rightarrow 2\y\rightarrow0}x\<br>\Rightarrow&amp;\lim_{x\rightarrow 2\y\rightarrow0}\frac{\ln(1+xy)}{xy}<br>{\overset{\color{red}令xy=u}{\underset{\color{red}{x^2+y^2=u变量替换}}=}}=\lim_{u\rightarrow0}\frac{\ln(1+u)}{u}=2<br>\end{split}<br>$$<br>e.g.5<br>$$<br>“\frac{\infty}{\infty}”:\lim_{x\rightarrow\infty\y\rightarrow\infty}(x^2+y^2)e^{-(x+y)}\overset{\color{red}{“\frac{\infty}{\infty}”}}{=}00\<br>\begin{split}<br>&amp;两边夹\quad&amp;0\le(x^2+y^2)e^{-(x+y)}\le \frac{(x+y)^2}{e^{x+y}}\rightarrow0(\begin{array} &amp;x\rightarrow +\infty\  y \rightarrow +\infty\end{array})\<br>&amp;&amp;\lim_{u\rightarrow0}\frac{u^2}{e^u}\overset{\color{red}{“\frac{\infty}{\infty}”}}{=}0\quad(换元法)\<br>&amp;练习:&amp;\lim_{x\rightarrow0\y\rightarrow0}(x+y)\ln(x^2+y^2)<br>\end{split}\<br>$$</p>
+<h1 id="四、多元函数的连续性"><a href="#四、多元函数的连续性" class="headerlink" title="四、多元函数的连续性"></a>四、多元函数的连续性</h1><h2 id="Def-4"><a href="#Def-4" class="headerlink" title="Def 4"></a>Def 4</h2><p>$$<br>\lim_{x\rightarrow x_0\y\rightarrow y_0}f(x,y)=f(x_0,y_0)\Rightarrow z=f(x,y)在P_0(x_0,y_0)连续\<br>否则,称z=f(x,y)在P_0(x_0,y_0)不连续,P_0为间断点<br>\begin{cases}<br>1.P_0点无定义\<br>2.极限不存在\<br>3.极限存在但\ne f(P_0)<br>\end{cases}<br>$$</p>
+<p>例如<br>$$<br>f(x,y)=<br>\begin{cases}<br>(x^2+y^2)\sin\frac{1}{x^2+y^2}&amp;(x,y)\ne (0,0)\<br>0&amp;(x,y)= (0,0)<br>\end{cases}\<br>\lim_{x\rightarrow x_0\y\rightarrow y_0}f(x,y)=0=f(0,0),函数连续<br>$$<br>$Remark$ 可推广</p>
+<h2 id="Def-5"><a href="#Def-5" class="headerlink" title="Def 5"></a>Def 5</h2><p>$$<br>z=f(x,y)在D上的每一点都连续，称f(x,y)在D上连续或f(x,y)为D上的连续函数<br>$$</p>
+<h2 id="Def-6"><a href="#Def-6" class="headerlink" title="Def 6"></a>Def 6</h2><p>$$<br>多元初等函数:由常数及一元基本初等函数经过有限次四则运算和(或)有限次复合形成的函数<br>$$</p>
+<p>e.g.<br>$$<br>\lim_{x\rightarrow x_0\y\rightarrow y_0}\frac{\ln(2^x+e^y)+1}{\sin(x^2+y^2)}=\frac{\ln3+1}{\sin1}\<br>\color{red}{一切二元初等函数在其定义域内都是连续的}\<br>z=f(x,y)\quad(x,y)\in D\<br>\lim_{x\rightarrow x_0\y\rightarrow y_0}f(x,y)=f(x_0,y_0)为二元初等函数的极限\color{red}{(x_0,y_0)}\in D\<br>$$<br>推广<br>$$<br>\begin{split}<br>有界闭区域上二元连续函数的性质\<br>闭区间上一元连续函数的性质<br>\end{split}<br>}整体性质<br>\begin{cases}<br>1.有界性\<br>2.最值性\<br>3.介值性\<br>4.一致连续性\<br>\end{cases}<br>$$</p>
+<h1 id="偏导数"><a href="#偏导数" class="headerlink" title="偏导数"></a>偏导数</h1><p>见高数笔记3</p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/03/07/洛谷P1439/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2019/03/07/洛谷P1439/" class="post-title-link" itemprop="url">洛谷P1439</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+
+              
+                
+              
+
+              <time title="Erstellt: 2019-03-07 16:13:03 / Geändert am: 16:30:26" itemprop="dateCreated datePublished" datetime="2019-03-07T16:13:03+08:00">2019-03-07</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="P1439-【模板】最长公共子序列"><a href="#P1439-【模板】最长公共子序列" class="headerlink" title="P1439:【模板】最长公共子序列"></a>P1439:【模板】最长公共子序列</h1><p>链接：<a href="https://www.luogu.org/problemnew/show/P1439" target="_blank" rel="noopener">https://www.luogu.org/problemnew/show/P1439</a></p>
+<p>$Time\;Limit:\;1000\;ms$</p>
+<p>$Memory\;Limit:\;128\;MB​$</p>
+<h2 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h2><p>给出$1-n$的两个排列$P1$和$P2$，求它们的最长公共子序列。</p>
+<h2 id="输入格式"><a href="#输入格式" class="headerlink" title="输入格式"></a>输入格式</h2><p>第一行是一个数$n$，</p>
+<p>接下来两行，每行为$n$个数，为自然数$1-n$的一个排列。</p>
+<h2 id="输出格式"><a href="#输出格式" class="headerlink" title="输出格式"></a>输出格式</h2><p>一个数，即最长公共子序列的长度</p>
+<h2 id="输入样例-1"><a href="#输入样例-1" class="headerlink" title="输入样例#1"></a>输入样例#1</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">5 </span><br><span class="line">3 2 1 4 5</span><br><span class="line">1 2 3 4 5</span><br></pre></td></tr></table></figure>
+<h2 id="输出样例-1"><a href="#输出样例-1" class="headerlink" title="输出样例#1"></a>输出样例#1</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">3</span><br></pre></td></tr></table></figure>
+<h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><p>【数据规模】</p>
+<p>对于$50\%​$的数据，$n\le 1000​$</p>
+<p>对于$100\%$的数据，$n\le100000​$</p>
+<h2 id="题解"><a href="#题解" class="headerlink" title="题解"></a>题解</h2><p>将$P1$中的数换成$1-n$，用数组记录下对应的替换</p>
+<p>然后将$P2$中的数依$P1$的数字对应关系变换</p>
+<p>易知变换后$P2$各位的值即其在$P1$中的位置</p>
+<p>那么题目变成了求$P2$最大上升子序列长度的问题</p>
+<p>拿个$O(nlog_2n)$的板子套一下即可</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//Time: 147ms Memory: 1692KB</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="keyword">int</span> P2[<span class="number">100005</span>], b[<span class="number">100005</span>], d[<span class="number">100005</span>];</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	ios::sync_with_stdio(<span class="number">0</span>);</span><br><span class="line">	<span class="keyword">int</span> n, temp;</span><br><span class="line">	<span class="built_in">cin</span> &gt;&gt; n;</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">1</span>; i &lt;= n; ++i) </span><br><span class="line">	&#123;</span><br><span class="line">		<span class="built_in">cin</span> &gt;&gt; temp;</span><br><span class="line">		b[temp] = i;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">1</span>; i &lt;= n; ++i) </span><br><span class="line">	&#123;</span><br><span class="line">		<span class="built_in">cin</span> &gt;&gt; temp;</span><br><span class="line">		P2[i] = b[temp];</span><br><span class="line">	&#125;</span><br><span class="line">	d[<span class="number">1</span>] = P2[<span class="number">1</span>];</span><br><span class="line">    <span class="keyword">int</span> len = <span class="number">1</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">2</span>; i &lt;= n; ++i)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span>(P2[i] &gt; d[len])</span><br><span class="line">            d[++len] = P2[i];</span><br><span class="line">        <span class="keyword">else</span></span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">int</span> j = lower_bound(d + <span class="number">1</span>, d + len + <span class="number">1</span>, P2[i]) - d;</span><br><span class="line">            d[j] = P2[i]; </span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; len &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/03/05/高数笔记1/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2019/03/05/高数笔记1/" class="post-title-link" itemprop="url">高数笔记1</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+
+              
+                
+              
+
+              <time title="Erstellt: 2019-03-05 20:00:25" itemprop="dateCreated datePublished" datetime="2019-03-05T20:00:25+08:00">2019-03-05</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Bearbeitet am</span>
+                
+                <time title="Geändert am: 2019-03-09 23:19:09" itemprop="dateModified" datetime="2019-03-09T23:19:09+08:00">2019-03-09</time>
+              
+            
+          </span>
+
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="一、平面点集的一些概念"><a href="#一、平面点集的一些概念" class="headerlink" title="一、平面点集的一些概念"></a>一、平面点集的一些概念</h1><p>一元函数 值域 $R$-直线</p>
+<p> 二元函数 值域 $R^2$-平面</p>
+<h2 id="1-邻域"><a href="#1-邻域" class="headerlink" title="1. 邻域"></a>1. 邻域</h2><h3 id="1-定义"><a href="#1-定义" class="headerlink" title="1. 定义"></a>1. 定义</h3><p>$P_0(x_0,y_0)为平面上的一点,\delta&gt;0​$</p>
+<p>$点P的\delta邻域U(P_0,\delta)={P||PP_0|&lt;\delta|}​$</p>
+<p>$其中|PP_0|=\sqrt{(x-x_0)^2+(y-y_0)^2}$    $P(x,y),P_0(x_0,y_0)$</p>
+<h3 id="2-几何意义"><a href="#2-几何意义" class="headerlink" title="2. 几何意义"></a>2. 几何意义</h3><h3 id="3-简记"><a href="#3-简记" class="headerlink" title="3. 简记"></a>3. 简记</h3><p>$U(P_0)$</p>
+<h3 id="4-点-P-0-的去心邻域"><a href="#4-点-P-0-的去心邻域" class="headerlink" title="4. 点$P_0$的去心邻域"></a>4. 点$P_0$的去心邻域</h3><p>$\mathring{U}(P_0,\delta)={P|0&lt;|PP_0|&lt;\delta},简记为\mathring{U}(P_0),几何意义略$</p>
+<h2 id="2-区域"><a href="#2-区域" class="headerlink" title="2. 区域"></a>2. 区域</h2><p>$E-平面点集$</p>
+<h3 id="1-内点"><a href="#1-内点" class="headerlink" title="1. 内点"></a>1. 内点</h3><p>$$<br>\begin{array}<br>&amp;i) &amp;P\in E\<br>ii) &amp;\exists U(P)\subset E\<br>\end{array}<br>\Rightarrow P为E的内点<br>$$</p>
+<h3 id="2-外点"><a href="#2-外点" class="headerlink" title="2. 外点"></a>2. 外点</h3><p>$$<br>\begin{array}<br>&amp;i) &amp;P\notin E\<br>ii) &amp;\exists U(P)\cap E = \varnothing\<br>\end{array}<br>\Rightarrow P为E的外点<br>$$</p>
+<h3 id="3-边界点"><a href="#3-边界点" class="headerlink" title="3. 边界点"></a>3. 边界点</h3><p>$$<br>\begin{array}<br>&amp;i) &amp;P\in E\;or\;P\notin E\<br>ii) &amp;\forall U(P):<br>\begin{split}<br>&amp;U(P)\cap E \ne \varnothing\<br>&amp;U(P)\cap R^2\backslash E \ne \varnothing\<br>\end{split}\<br>\end{array}<br>\Rightarrow P为E的边界点<br>$$</p>
+<p>$$<br>E的边界点的全体-E的边界,记为\partial E<br>$$</p>
+<h4 id="Remark"><a href="#Remark" class="headerlink" title="Remark"></a>Remark</h4><p>$给定一平面点集E,R^2上的点或为内点,或为外点,或为边界点$</p>
+<p>&lt;分类&gt;三者必居其一,且只居其一​</p>
+<h3 id="4-开集"><a href="#4-开集" class="headerlink" title="4. 开集"></a>4. 开集</h3><p>若$E​$上的点均为内点,则称$E​$为开集</p>
+<h3 id="5-联通的"><a href="#5-联通的" class="headerlink" title="5. 联通的"></a>5. 联通的</h3><p>若开集$D$内的任何一点可以用折线连接,且折线上的点均属于$P$,则称$D$为连通的开集</p>
+<h3 id="6-开区域"><a href="#6-开区域" class="headerlink" title="6. 开区域"></a>6. 开区域</h3><p>$联通的+开集=开区域$(开区间的推广)</p>
+<h3 id="7-闭区域"><a href="#7-闭区域" class="headerlink" title="7. 闭区域"></a>7. 闭区域</h3><p>$开区域+边界=闭区域​$</p>
+<h3 id="8-有界点集"><a href="#8-有界点集" class="headerlink" title="8. 有界点集"></a>8. 有界点集</h3><p>$O(0,0),\exists  k&gt;0,\forall p \in E,|OP| \le k,则称E为有界点集$</p>
+<h4 id="e-g"><a href="#e-g" class="headerlink" title="e.g."></a>e.g.</h4><p>$$<br>E_1={(x,y)|1&lt;x^2+y^2&lt;4}:开区域\<br>E_2={(x,y)|1\le x^2+y^2\le 4}:闭区域\<br>E_3={(x,y)|x^2+y^2\ge 0}:无界闭区域<br>$$</p>
+<h3 id="Remark-1"><a href="#Remark-1" class="headerlink" title="Remark"></a>Remark</h3><p>$$<br>\begin{array}{c|l|l}<br>{}&amp;{值域}&amp;{点}\<br>\hline<br>{一元函数}&amp;{一维直线上的点集R}&amp;{x}\<br>\hline<br>{二元函数}&amp;{二维平面上的点集R^2}&amp;{(x,y)}\<br>\hline<br>{三元函数}&amp;{三维空间上的点集R^3}&amp;{(x,y,z)}\<br>\hline<br>{\cdots}&amp;{\cdots\cdots}&amp;{\cdots}\<br>\hline<br>{n元函数}&amp;{n维空间上的点集R^n}&amp;{(x_1,x_2,x_3,\cdots,x_n)}\<br>\end{array}<br>\<br>n维空间可类似定义<br>$$</p>
+<h1 id="二、多元函数的概念"><a href="#二、多元函数的概念" class="headerlink" title="二、多元函数的概念"></a>二、多元函数的概念</h1><p>e.g.1    $S_\Delta=\frac {1}{2}dh$</p>
+<p>e.g.2    理想气体压强$P=R\frac{I}{U}$</p>
+<h2 id="Def-1"><a href="#Def-1" class="headerlink" title="Def 1"></a>Def 1</h2><p>$D-平面点集,R-实数集​$</p>
+<p>$若对\forall P(x,y)\in D,按照对应法则f,有唯一确定的z\in R与之对应,则称z为x,y的二元函数,记为$<br>$$<br>z=f(x,y)\cdots(x,y)\in D<br>$$</p>
+<p>$$<br>\begin{cases}<br>x,y&amp;-自变量\<br>z&amp;-因变量\<br>D&amp;-定义域\<br>{z|z=f(x,y),(x,y)\in R}&amp;-值域\<br>\end{cases}<br>$$</p>
+<h3 id="Remark-2"><a href="#Remark-2" class="headerlink" title="Remark"></a>Remark</h3><h4 id="1-类似可定义"><a href="#1-类似可定义" class="headerlink" title="1. 类似可定义"></a>1. 类似可定义</h4><p>三元函数$U=f(x,y,z)\cdots(x,y,z)\in D$</p>
+<p>$n元函数U=f(x_1,x_2,\cdots,x_n)\cdots (x_1,x_2,\cdots,x_n)\in D$</p>
+<h4 id="2-自然定义域"><a href="#2-自然定义域" class="headerlink" title="2. 自然定义域"></a>2. 自然定义域</h4><p>e.g. </p>
+<p>$z=\tan(x^2+y^2)\rightarrow D={(x,y)|x^2+y^2\ne k\pi +\frac{\pi}{2},k\in Z}$</p>
+<p>$z=\arcsin(x^2+y^2)\rightarrow D={(x,y)|x^2+y^2\le 1}​$</p>
+<p>$z=\ln(x+y) \rightarrow D={(x,y)|x+y&gt;0}$</p>
+<h4 id="统一-lt-点函数观点-gt"><a href="#统一-lt-点函数观点-gt" class="headerlink" title="统一&lt;点函数观点&gt;"></a>统一&lt;点函数观点&gt;</h4><p>$U=f(P),P\in D一点,P(x_1,x_2,\cdots,x_n)​$<br>$$<br>\begin{cases}<br>n=1&amp;一元函数\<br>n\ge2&amp;多元函数<br>\end{cases}<br>$$</p>
+<h2 id="Def-2"><a href="#Def-2" class="headerlink" title="Def 2"></a>Def 2</h2><p>$设Z=f(x,y)\cdots(x,y)\in D,$</p>
+<p>$则空间点集{(x,y,z)|z=f(x,y),(x,y)\in D}为二元函数z=f(x,y)\cdots (x,y)\in D的图形$</p>
+<h2 id="Remark-3"><a href="#Remark-3" class="headerlink" title="Remark"></a>Remark</h2><p>二元函数的图形通常是一张曲面</p>
+<p>e.g.<br>$$<br>\begin{array}<br>&amp;z=\sqrt{a^2-x^2-y^2}&amp;上半球面\<br>z=xy&amp;马鞍面(双曲抛物面)\<br>\end{array}<br>$$</p>
+<h1 id="三、多元函数的极限-二元函数"><a href="#三、多元函数的极限-二元函数" class="headerlink" title="三、多元函数的极限(二元函数)"></a>三、多元函数的极限(二元函数)</h1><p>$p\rightarrow p_0(任何方式)$</p>
+<p>$f(p)\rightarrow A(常数)$</p>
+<h2 id="Def-3-varepsilon-delta"><a href="#Def-3-varepsilon-delta" class="headerlink" title="Def 3$(\varepsilon-\delta)$"></a>Def 3$(\varepsilon-\delta)$</h2><p>$f(x,y)在区域D(或开或闭)上有定义,P_0(x_0,y_0)为D的内点或非孤立的边界点(聚点)$</p>
+<p>$若\exists  A\in R,对\forall \varepsilon &gt;0,\exists  \delta &gt;0,\forall P(x,y)\in D$</p>
+<p>$0&lt;|PP_1|=\sqrt{(x-x_0)^2+(y-y_0)^2}&lt;\delta(即P\in \mathring{U}(P_0,\delta)),有|f(x,y)-A|&lt;\varepsilon​$</p>
+<p>$则称A为f(x,y)在点(x,y)趋于P(x_0,y_0)时的极限,记为$<br>$$<br>\lim_{x\rightarrow x_0\y \rightarrow y_0}f(x,y)=A\<br>\lim_{(x,y)\rightarrow(x_0,y_0)}f(x,y)=A\<br>f(x,y)\rightarrow A(\rho\rightarrow0),其中\rho=|PP_0|\<br>\lim_{p \rightarrow p_0}f(p)=A<br>$$</p>
+<h2 id="Remark-4"><a href="#Remark-4" class="headerlink" title="Remark"></a>Remark</h2><h3 id="1-二元函数的极限-二重极限"><a href="#1-二元函数的极限-二重极限" class="headerlink" title="1. 二元函数的极限-(二重极限)"></a>1. 二元函数的极限-(二重极限)</h3><p>$(\begin{array} &amp;x\rightarrow x_0\  y \rightarrow y_0\end{array})同时进行​$</p>
+<p>e.g.<br>$$<br>证明:\lim_{x\rightarrow x_0\y \rightarrow y_0}^{}(x^2+y^2)\sin \frac{1}{x^2+y^2}=0<br>$$</p>
+<p>$$<br>(\varepsilon-\delta)记\forall\varepsilon&gt;0,\exists \delta=\sqrt{\varepsilon}&gt;0\<br>\forall (x,y):0&lt;\sqrt{(x-0)^2+(y-0)^2}&lt;\delta时\<br>有|(x^2+y^2)\sin\frac{1}{x^2+y^2}-0|\le x^2+y^2 &lt; \varepsilon,得证<br>$$</p>
+<h3 id="2-P-x-y-极限不存在"><a href="#2-P-x-y-极限不存在" class="headerlink" title="2. $P(x,y)$极限不存在"></a>2. $P(x,y)$极限不存在</h3><p>$$<br>\begin{array}<br>&amp;1.P\rightarrow P_0(某种方式):f(x,y)极限不存在\<br>2.P\rightarrow P_0(两种不同方式):f(x,y)极限不同(“路径法”)\<br>\end{array}<br>\Rightarrow 极限不存在<br>$$</p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/03/05/LeetCode-583/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2019/03/05/LeetCode-583/" class="post-title-link" itemprop="url">LeetCode-583</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+
+              
+                
+              
+
+              <time title="Erstellt: 2019-03-05 13:28:53 / Geändert am: 13:54:20" itemprop="dateCreated datePublished" datetime="2019-03-05T13:28:53+08:00">2019-03-05</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="LeetCode-583-Delete-Operation-for-Two-Strings-Multiply-Strings"><a href="#LeetCode-583-Delete-Operation-for-Two-Strings-Multiply-Strings" class="headerlink" title="LeetCode-583: Delete Operation for Two Strings Multiply Strings"></a>LeetCode-583: Delete Operation for Two Strings Multiply Strings</h1><p>链接：<a href="https://leetcode.com/problems/delete-operation-for-two-strings/" target="_blank" rel="noopener">https://leetcode.com/problems/delete-operation-for-two-strings/</a></p>
+<h2 id="题解"><a href="#题解" class="headerlink" title="题解"></a>题解</h2><p>$LCS(Longest\;Common\;Subsequence)​$板子题</p>
+<p>$Dynamic\;programming​$(动态规划)</p>
+<p>求出最长公共子序列长度，用两个字符串长度之和减去最长公共子序列长度的两倍即可</p>
+<p>很自然地想到动态规划</p>
+<p>状态转移方程为<br>$$<br>dp[j]=<br>\begin{cases}<br>max(dp[j],dp[j-1])&amp;word1[i - 1]\ne word2[j - 1]\<br>pre+1 &amp;word1[i - 1] = word2[j - 1]\<br>\end{cases}<br>$$</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//Time: 24ms Memory: 15.9MB</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">	<span class="function"><span class="keyword">int</span> <span class="title">minDistance</span><span class="params">(<span class="built_in">string</span> word1, <span class="built_in">string</span> word2)</span> </span>&#123;</span><br><span class="line">		<span class="keyword">int</span> len1 = word1.length(), len2 = word2.length(), pre, dp[<span class="number">505</span>];</span><br><span class="line">		<span class="built_in">memset</span>(dp, <span class="number">0</span>, <span class="keyword">sizeof</span>(dp));</span><br><span class="line">		<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">1</span>; i &lt;= len1; ++i)</span><br><span class="line">		&#123;</span><br><span class="line">			pre = <span class="number">0</span>;</span><br><span class="line">			<span class="keyword">for</span>(<span class="keyword">int</span> j = <span class="number">1</span>; j &lt;= len2; ++j)</span><br><span class="line">			&#123;</span><br><span class="line">				<span class="keyword">int</span> h = dp[j];</span><br><span class="line">				dp[j] = word1[i - <span class="number">1</span>] == word2[j - <span class="number">1</span>] ? pre + <span class="number">1</span> : max(dp[j], dp[j - <span class="number">1</span>]);</span><br><span class="line">				pre = h;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">return</span> len1 + len2 - <span class="number">2</span> * dp[len2];</span><br><span class="line">	&#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/03/04/FZU-2020/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2019/03/04/FZU-2020/" class="post-title-link" itemprop="url">FZU-2020</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+
+              
+                
+              
+
+              <time title="Erstellt: 2019-03-04 19:19:11 / Geändert am: 19:57:56" itemprop="dateCreated datePublished" datetime="2019-03-04T19:19:11+08:00">2019-03-04</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="FZU-2020-组合"><a href="#FZU-2020-组合" class="headerlink" title="FZU-2020: 组合"></a>FZU-2020: <strong>组合</strong></h1><p>链接：<a href="http://acm.fzu.edu.cn/problem.php?pid=2020" target="_blank" rel="noopener">http://acm.fzu.edu.cn/problem.php?pid=2020</a></p>
+<p>$Time\;Limit:\;1000\;ms$</p>
+<p>$Memory\;Limit:\;37268\;kB​$</p>
+<h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>给出组合数$C(n,m)​$, 表示从$n​$个元素中选出$m​$个元素的方案数。例如$C(5,2)=10​$, $C(4,2) = 6​$.可是当$n,m​$比较大的时候，$C(n,m)​$很大！于是$xiaobo​$希望你输出 $C(n,m)\;mod\;p​$的值！</p>
+<h2 id="Input"><a href="#Input" class="headerlink" title="Input"></a>Input</h2><p>输入数据第一行是一个正整数T,表示数据组数$ (T \le 100)​$ 接下来是T组数据，每组数据有$3​$个正整数 $n, m, p (1 \le m \le n \le 10^9, m \le 10^4, m &lt; p &lt; 10^9, p是素数)​$</p>
+<h2 id="Output"><a href="#Output" class="headerlink" title="Output"></a>Output</h2><p>对于每组数据，输出一个正整数，表示$C(n,m)\;mod\;p​$的结果。</p>
+<h2 id="Sample-Input"><a href="#Sample-Input" class="headerlink" title="Sample Input"></a>Sample Input</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">2</span><br><span class="line">5 2 3</span><br><span class="line">5 2 61</span><br></pre></td></tr></table></figure>
+<h2 id="Sample-Output"><a href="#Sample-Output" class="headerlink" title="Sample Output"></a>Sample Output</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">1</span><br><span class="line">10</span><br></pre></td></tr></table></figure>
+<h2 id="题解"><a href="#题解" class="headerlink" title="题解"></a>题解</h2><p>$Lucas$定理</p>
+<p>$$<br>\begin{pmatrix}<br>m\n<br>\end{pmatrix}<br>= \prod^k_{i=0}<br>\begin{pmatrix}<br>m_i\n_i<br>\end{pmatrix}(mod\;p)<br>\tag{1}<br>$$</p>
+<p>$$<br>m=m_kp^k+m_{k-1}^p{k-1}+\cdots+m_1p+m_0<br>\tag{2}<br>$$</p>
+<p>$$<br>n=n_kp^k+n_{k-1}^p{k-1}+\cdots+n_1p+n_0<br>\tag{3}<br>$$</p>
+<p>则有<br>$$<br>\begin{pmatrix}<br>p\n<br>\end{pmatrix}<br>=\frac<br>{p\cdot(p-1)\cdots(p-n+1)}<br>{n\cdot(n-1)\cdots1}<br>\tag{4}<br>$$</p>
+<p>可得<br>$$<br>ans= \prod^n_{i=0}\frac{(m-n+i)}{i}<br>\tag{5}<br>$$<br>又由于取模不能进行除法，则需要求逆元，即<br>$$<br>ans= \prod^n_{i=0}(m-n+i)\cdot inv(i)<br>\tag{6}<br>$$<br>由费马小定理<br>$$<br>a^{p-1}\equiv 1(mod\; p)<br>\tag{7}<br>$$<br>则有<br>$$<br>a^{p-1}=a\cdot a^{p-2}=1(mod\;p)<br>\tag{8}<br>$$<br>则<br>$$<br>inv(a)=a^{p-2}\tag{9}<br>$$<br>然后求解即可</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//Time: 421ms Memory: 196kB</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> ll long long </span></span><br><span class="line"><span class="function">ll <span class="title">qpow</span><span class="params">(ll n, ll m, ll p)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	ll res = <span class="number">1</span>;</span><br><span class="line">	n %= p;</span><br><span class="line">	<span class="keyword">while</span>(m)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="keyword">if</span>(m &amp; <span class="number">1</span>) res = res * n % p, --m;</span><br><span class="line">		m &gt;&gt;= <span class="number">1</span>;</span><br><span class="line">		n = n * n % p;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> res;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function">ll <span class="title">C</span><span class="params">(ll n, ll m, ll p)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">if</span>(m &gt; n) <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">	ll res = <span class="number">1</span>;</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">1</span>; i &lt;= m; ++i) res = res * ((n + i - m) % p * qpow(i % p, p - <span class="number">2</span>, p) % p) % p;</span><br><span class="line">	<span class="keyword">return</span> res;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> t; ll n, m, p;</span><br><span class="line">	<span class="built_in">cin</span> &gt;&gt; t;</span><br><span class="line">	<span class="keyword">while</span>(t--)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="built_in">cin</span> &gt;&gt; n &gt;&gt; m &gt;&gt; p;</span><br><span class="line">		<span class="built_in">cout</span> &lt;&lt; C(n, m, p) &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/02/26/LeetCode-43/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2019/02/26/LeetCode-43/" class="post-title-link" itemprop="url">LeetCode-43</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+
+              
+                
+              
+
+              <time title="Erstellt: 2019-02-26 13:12:46 / Geändert am: 13:20:49" itemprop="dateCreated datePublished" datetime="2019-02-26T13:12:46+08:00">2019-02-26</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="LeetCode-43-Multiply-Strings"><a href="#LeetCode-43-Multiply-Strings" class="headerlink" title="LeetCode-43: Multiply Strings"></a>LeetCode-43: Multiply Strings</h1><p>链接：<a href="https://leetcode.com/problems/multiply-strings/" target="_blank" rel="noopener">https://leetcode.com/problems/multiply-strings/</a></p>
+<h2 id="题解"><a href="#题解" class="headerlink" title="题解"></a>题解</h2><p><del>OJ​好鬼畜啊</del></p>
+<p>大数乘法板子题</p>
+<p>结果需要转化为$string$型不然会$RE$</p>
+<p>$Divide\;and\;conquer​$(分治法)​</p>
+<p>将每一位算出来，最后进行进位和反转即可</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//Time: 8ms Memory: 10.6MB</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">	<span class="function"><span class="built_in">string</span> <span class="title">multiply</span><span class="params">(<span class="built_in">string</span> num1, <span class="built_in">string</span> num2)</span> </span>&#123;</span><br><span class="line">		<span class="keyword">int</span> len1 = num1.length(), len2 = num2.length(), len = <span class="number">0</span>;</span><br><span class="line">		<span class="keyword">int</span> maxn = <span class="number">110</span>;</span><br><span class="line">		<span class="keyword">int</span> a[maxn] = &#123;<span class="number">0</span>&#125;, b[maxn] = &#123;<span class="number">0</span>&#125;, c[<span class="number">2</span> * maxn] = &#123;<span class="number">0</span>&#125;;</span><br><span class="line">		<span class="keyword">char</span> res[maxn * <span class="number">2</span>];</span><br><span class="line">		<span class="keyword">for</span>(<span class="keyword">int</span> j = <span class="number">0</span>, i = len1 - <span class="number">1</span>; i &gt;= <span class="number">0</span>; --i) a[j++] = num1[i] - <span class="string">'0'</span>;</span><br><span class="line">		<span class="keyword">for</span>(<span class="keyword">int</span> j = <span class="number">0</span>, i = len2 - <span class="number">1</span>; i &gt;= <span class="number">0</span>; --i) b[j++] = num2[i] - <span class="string">'0'</span>;</span><br><span class="line">		<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; len2; ++i)</span><br><span class="line">			<span class="keyword">for</span>(<span class="keyword">int</span> j = <span class="number">0</span>; j &lt; len1; ++j)</span><br><span class="line">				c[i + j] += a[j] * b[i];</span><br><span class="line">		<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; <span class="number">2</span> * maxn; ++i)</span><br><span class="line">			<span class="keyword">if</span>(c[i] &gt;= <span class="number">10</span>) c[i + <span class="number">1</span>] += c[i] / <span class="number">10</span>, c[i] %= <span class="number">10</span>;</span><br><span class="line">		<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; <span class="number">2</span> * maxn; ++i) res[i] = (<span class="keyword">char</span>)(c[i] + <span class="string">'0'</span>);</span><br><span class="line">		<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">2</span> * maxn - <span class="number">1</span>; i &gt; <span class="number">0</span>; --i)</span><br><span class="line">			<span class="keyword">if</span>(res[i] == <span class="string">'0'</span>) res[i] = <span class="string">'\0'</span>;</span><br><span class="line">			<span class="keyword">else</span> <span class="keyword">break</span>;</span><br><span class="line">		<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; <span class="number">2</span> * maxn; ++i)</span><br><span class="line">			<span class="keyword">if</span>(res[i] != <span class="string">'\0'</span>) ++len;</span><br><span class="line">			<span class="keyword">else</span> <span class="keyword">break</span>;</span><br><span class="line">		reverse(res, res + len);</span><br><span class="line">		<span class="function"><span class="built_in">string</span> <span class="title">ans</span><span class="params">(res)</span></span>;</span><br><span class="line">		<span class="keyword">return</span> ans;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+  </section>
+
+  
+  <nav class="pagination">
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right" aria-label="Nächste Seite"></i></a>
+  </nav>
+
+
+
+          </div>
+          
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">John Doe</p>
+              <div class="site-description motion-element" itemprop="description"></div>
+          </div>
+
+          
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/archives/">
+                
+                    <span class="site-state-item-count">23</span>
+                    <span class="site-state-item-name">Artikel</span>
+                  </a>
+                </div>
+              
+
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  
+                    
+                      <a href="/tags/">
+                    
+                  
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">19</span>
+                    <span class="site-state-item-name">schlagwörter</span>
+                  </a>
+                </div>
+              
+            </nav>
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+          
+
+          
+            
+          
+          
+
+        </div>
+      </div>
+
+      
+
+      
+
+    </div>
+  </aside>
+  
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">John Doe</span>
+
+  
+
+  
+</div>
+
+
+  <div class="powered-by">Erstellt mit  <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> v3.8.0</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">Design – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> v7.0.1</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+    
+
+    
+  </div>
+
+  
+
+<script>
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+
+  
+
+
+  <script src="/js/src/utils.js?v=7.0.1"></script>
+
+  <script src="/js/src/motion.js?v=7.0.1"></script>
+
+
+
+  
+  
+
+
+  <script src="/js/src/schemes/muse.js?v=7.0.1"></script>
+
+
+
+  
+
+  
+
+
+  <script src="/js/src/next-boot.js?v=7.0.1"></script>
+
+
+  
+
+  
+
+  
+
+  
+
+
+
+  
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
