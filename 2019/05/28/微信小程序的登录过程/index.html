@@ -98,21 +98,27 @@
 
 
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="categories">
-<meta property="og:url" content="http://blog.iostream.site/app/categories/index.html">
+  <meta name="description" content="小程序可以通过微信官方提供的登录能力方便地获取微信提供的用户身份标识，快速建立小程序内的用户体系。  说明： 调用 wx.login() 获取 临时登录凭证code ，并回传到开发者服务器。 调用 auth.code2Session 接口，换取 用户唯一标识 OpenID 和 会话密钥 session_key。  之后开发者服务器可以根据用户标识来生成自定义登录态，用于后续业务逻辑中前后端交互时识">
+<meta name="keywords" content="API">
+<meta property="og:type" content="article">
+<meta property="og:title" content="微信小程序的登录过程">
+<meta property="og:url" content="http://blog.iostream.site/app/2019/05/28/微信小程序的登录过程/index.html">
 <meta property="og:site_name" content="一群咸鱼的团队博客">
+<meta property="og:description" content="小程序可以通过微信官方提供的登录能力方便地获取微信提供的用户身份标识，快速建立小程序内的用户体系。  说明： 调用 wx.login() 获取 临时登录凭证code ，并回传到开发者服务器。 调用 auth.code2Session 接口，换取 用户唯一标识 OpenID 和 会话密钥 session_key。  之后开发者服务器可以根据用户标识来生成自定义登录态，用于后续业务逻辑中前后端交互时识">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-03-18T06:11:04.923Z">
+<meta property="og:image" content="https://res.wx.qq.com/wxdoc/dist/assets/img/api-login.2fcc9f35.jpg">
+<meta property="og:updated_time" content="2019-05-30T03:01:00.609Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="categories">
+<meta name="twitter:title" content="微信小程序的登录过程">
+<meta name="twitter:description" content="小程序可以通过微信官方提供的登录能力方便地获取微信提供的用户身份标识，快速建立小程序内的用户体系。  说明： 调用 wx.login() 获取 临时登录凭证code ，并回传到开发者服务器。 调用 auth.code2Session 接口，换取 用户唯一标识 OpenID 和 会话密钥 session_key。  之后开发者服务器可以根据用户标识来生成自定义登录态，用于后续业务逻辑中前后端交互时识">
+<meta name="twitter:image" content="https://res.wx.qq.com/wxdoc/dist/assets/img/api-login.2fcc9f35.jpg">
 
 
 
 
 
 
-  <link rel="canonical" href="http://blog.iostream.site/app/categories/">
+  <link rel="canonical" href="http://blog.iostream.site/app/2019/05/28/微信小程序的登录过程/">
 
 
 
@@ -122,7 +128,7 @@
   };
 </script>
 
-  <title>categories | 一群咸鱼的团队博客</title>
+  <title>微信小程序的登录过程 | 一群咸鱼的团队博客</title>
   
 
 
@@ -246,7 +252,7 @@
         
         
           
-          <li class="menu-item menu-item-categories menu-item-active">
+          <li class="menu-item menu-item-categories">
 
     
     
@@ -285,25 +291,6 @@
   
     
 
-    
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-    
-
-  
-
-
   
 
   
@@ -330,54 +317,205 @@
 
   <div id="posts" class="posts-expand">
     
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://blog.iostream.site/app/2019/05/28/微信小程序的登录过程/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="一位不愿透露姓名的网友">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="一群咸鱼的团队博客">
+    </span>
+
     
-    
-    <div class="post-block page">
       <header class="post-header">
 
-<h1 class="post-title" itemprop="name headline">categories
-
-</h1>
-
-<div class="post-meta">
-  
-  
-
-
-
-</div>
-
-</header>
-
-      
-      
-      
-      <div class="post-body">
         
         
-          <div class="category-all-page">
-            <div class="category-all-title">
+          <h1 class="post-title" itemprop="name headline">微信小程序的登录过程
+
               
-              
-              暂无分类
-            </div>
-            <div class="category-all">
-              
-            </div>
-          </div>
+            
+          </h1>
         
-      </div>
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-05-28 10:54:36" itemprop="dateCreated datePublished" datetime="2019-05-28T10:54:36+08:00">2019-05-28</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-05-30 11:01:00" itemprop="dateModified" datetime="2019-05-30T11:01:00+08:00">2019-05-30</time>
+              
+            
+          </span>
+
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
       
+
+      
+        <p>小程序可以通过微信官方提供的登录能力方便地获取微信提供的用户身份标识，快速建立小程序内的用户体系。</p>
+<p><img src="https://res.wx.qq.com/wxdoc/dist/assets/img/api-login.2fcc9f35.jpg" alt="https://res.wx.qq.com/wxdoc/dist/assets/img/api-login.2fcc9f35.jpg"></p>
+<h4 id="说明："><a href="#说明：" class="headerlink" title="说明："></a>说明：</h4><ol>
+<li>调用 <a href="https://developers.weixin.qq.com/miniprogram/dev/api/open-api/login/wx.login.html" target="_blank" rel="noopener">wx.login()</a> 获取 <strong>临时登录凭证code</strong> ，并回传到开发者服务器。</li>
+<li>调用 <a href="https://developers.weixin.qq.com/miniprogram/dev/api-backend/open-api/login/auth.code2Session.html" target="_blank" rel="noopener">auth.code2Session</a> 接口，换取 <strong>用户唯一标识 OpenID</strong> 和 <strong>会话密钥 session_key</strong>。</li>
+</ol>
+<p>之后开发者服务器可以根据用户标识来生成自定义登录态，用于后续业务逻辑中前后端交互时识别用户身份。</p>
+<p><strong>注意：</strong></p>
+<ol>
+<li>会话密钥 <code>session_key</code> 是对用户数据进行 <a href="https://developers.weixin.qq.com/miniprogram/dev/framework/open-ability/signature.html" target="_blank" rel="noopener">加密签名</a> 的密钥。为了应用自身的数据安全，开发者服务器<strong>不应该把会话密钥下发到小程序，也不应该对外提供这个密钥</strong>。</li>
+<li>临时登录凭证 code 只能使用一次</li>
+</ol>
+<p>以上是官方文档，从文档中可以理出如下流程：</p>
+<ol>
+<li><p>前端调用wx.login()获取code值</p>
+</li>
+<li><p>前端通过调用wx.getUserInfo获取iv、rawData、signature、encryptedData等加密数据，传递给后端</p>
+</li>
+<li><p>服务器通过code请求api换回session_key和openid</p>
+</li>
+<li><p>服务器通过前端给的rawData 加获取的session_key使用sha1加密，计算出signature1</p>
+</li>
+<li><p>比对前端传的signature和自己算出来的signature1是否一致（防止数据不一致）</p>
+</li>
+<li><p>用AES算法解密encryptedData里的敏感数据</p>
+</li>
+<li><p>拿着敏感数据后做自己的逻辑</p>
+</li>
+<li><p>通知前端登陆成功</p>
+</li>
+</ol>
+
       
     </div>
-    
-
-
 
     
+
     
     
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/API/" rel="tag"># API</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2019/03/18/helloworld/" rel="next" title="helloworld">
+                <i class="fa fa-chevron-left"></i> helloworld
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
   </div>
 
 
@@ -406,8 +544,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <div class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -470,6 +617,23 @@
         </div>
       </div>
 
+      
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#说明："><span class="nav-number">1.</span> <span class="nav-text">说明：</span></a></li></ol></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
       
 
       
